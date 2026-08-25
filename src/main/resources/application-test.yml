@@ -1,0 +1,6 @@
+app:
+  jwt:
+    secret: test-only-secret-for-automated-tests-0123456789abcdef
+    expiration-seconds: 3600
+  cors:
+    allowed-origins: http://localhost:5173
